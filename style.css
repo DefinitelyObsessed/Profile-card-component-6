@@ -1,0 +1,87 @@
+body {
+background-color: hsl(185, 75%, 39%);
+overflow: hidden;
+text-align: center;
+font-family: "Kumbh Sans";
+}
+
+
+/* Images Section  */
+
+.pattern-top {
+clip-path: inset(50% 0 0 30%);
+position: absolute;
+bottom: 50%;
+right: 50%;
+}
+
+.pattern-bottom {
+clip-path: inset( 0 30% 50% 0 );
+position: absolute;
+top: 40%;
+left: 56%;
+}
+
+.pattern-card {
+  border-radius: 20px 20px 0 0 ;
+}
+
+.profile-picture {
+  border-radius: 50px;
+  border: 5px solid ;
+  border-color: #fff ;
+  position: fixed;
+  right: 8rem ;
+   top: 5rem ;
+}
+
+
+/* Parent Card */
+
+.parent-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff ;
+  width: 21.9rem ;
+  border-radius: 20px ;
+}
+
+h3 {
+  color: black ;
+  font-weight: 700 ;
+  font-size: 1.4rem ;
+}
+
+span, p {
+  color: hsl(0, 0%, 59%) ;
+  font-weight: 400;
+}
+
+hr {
+  border-style: none;
+border-top: 0.5px solid;
+border-color: hsl(0, 0%, 59%) ;
+}
+
+
+/* Text Part */
+
+.text-part {
+  padding: 14% 0 2% 0 ;
+  line-height: 0.5rem ;
+}
+
+
+/* Number Part */
+
+.number-part-parts {
+  display: inline-block;
+  padding: 3% 7% 7% 7%;
+  line-height: 0.3;
+}
+
+.small-p {
+  font-size: 0.8rem ;
+}
